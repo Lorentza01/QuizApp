@@ -9,7 +9,7 @@ const questions = [{
   ],
   correctAnswerString: 'Gorgeous Ladies of Wrestling',
   correctAnswer: 1,
-  imgsrc: 'images/GLOW.jpg',
+  imgsrc: 'GLOW.jpg',
   imgalt: 'the cast of Glow'
 },
 
@@ -24,7 +24,7 @@ const questions = [{
   ],
   correctAnswerString: 'The Liberty Bell',
   correctAnswer: 0,
-  imgsrc: 'images/Debbie-Egan.jpg',
+  imgsrc: 'Debbie-Egan.jpg',
   imgalt: 'actress Betty Gilpin'
 },
 
@@ -39,7 +39,7 @@ const questions = [{
   ],
   correctAnswerString: 'Ruth slept with Debby’s husband.',
   correctAnswer: 2,
-  imgsrc: 'images/Debbie-Ruth-Fight.jpg',
+  imgsrc: 'Debbie-Ruth-Fight.jpg',
   imgalt: 'two women wrestling'
 },
 
@@ -54,7 +54,7 @@ const questions = [{
   ],
   correctAnswerString: 'Britannica',
   correctAnswer: 0,
-  imgsrc: 'images/Bash.jpg',
+  imgsrc: 'Bash.jpg',
   imgalt: 'actor Chris Lowell'
 },
 
@@ -69,7 +69,7 @@ const questions = [{
   ],
   correctAnswerString: '1986',
   correctAnswer: 1,
-  imgsrc: 'images/Glow Original.jpg',
+  imgsrc: 'Glow Original.jpg',
   imgalt: 'the original cast of Glow'
 }];
 
