@@ -1,0 +1,175 @@
+@font-face {
+  font-family: 'glowFont';
+  src: url('Lineat-III.otf') format("opentype"); 
+}  
+
+.mainWrapper {
+  background-color: black;
+  padding: 50px;
+  margin: auto;
+}
+
+
+.questions {
+background-color: white;
+width: 55px;
+height: 55px;
+display: block;
+}
+
+.answers{
+background-color: paleturquoise;
+width: 55px;
+height: 55px;
+display: block;
+}
+
+main .row {
+  margin-bottom: 20px;
+}
+
+
+.topBar {
+  font-family: glowFont;
+  width: auto;
+  height: 100px;
+  color: deeppink;
+  font-size: 25px;
+  text-align: center;
+  text-shadow: 1px 1px 25px deeppink;
+  display: block;
+  margin-bottom: 25px;
+
+}
+
+h2 {
+  font-size: 15px;
+  font-family: glowFont;
+}
+
+.scoreKeeper {
+  background-color:black;
+  color: white;
+  margin-left: auto;
+  margin-right: auto;
+  margin-top: 15px;
+  width: 100%;
+  text-align: left;
+  padding-left: 25px;
+  padding-right: 25px;
+  box-shadow: 0px 0px 15px deeppink;
+  border: solid 3px deeppink;
+  display: block;
+  }
+
+.questionBox {
+  background-color:deeppink;
+  padding: 25px;
+  box-shadow: 0px 0px 15px deeppink;
+  color: white;
+}
+
+.answerButton {
+  background-color: pink;
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  margin-top: 15px;
+  width: 100%;
+  text-align: left;
+  padding-left: 25px;
+  padding-right: 25px;
+  padding-top: 25px;
+  padding-bottom: 25px;
+}
+
+.form {
+  padding: 20px;
+  background-color: azure;
+  text-align: center;
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+button {
+  color: white;
+  background-color: aquamarine;
+  margin-top: 25px;
+  width: 55px;
+  height: auto;
+  text-align: center;
+  border: 0;
+  padding: 5px;
+}
+
+button:hover {
+  background-color: black;
+}
+
+.xoutofy {
+  background-color:black;
+  color: white;
+  margin-left: auto;
+  margin-right: auto;
+  margin-top: 15px;
+  width: 100%;
+  text-align: left;
+  padding-left: 25px;
+  padding-right: 25px;
+  box-shadow: 0px 0px 15px deeppink;
+  border: solid 3px deeppink;
+}
+
+.rightorwrong{
+  color:black;
+}
+
+
+.alertright {
+  margin: 25px;
+  padding: 20px;
+  background-color: lightgreen;
+  color: white;
+}
+
+.alertwrong {
+  margin: 25px;
+  padding: 20px;
+  background-color: red;
+  color: white;
+}
+
+.alertchoose{
+  margin: 25px;
+  padding: 20px;
+  background-color:lightskyblue;
+  color: white;
+}
+
+.pic {
+  box-shadow: 0px 0px 15px deeppink;
+  border: solid 3px deeppink;
+  margin-top: 15px;
+}
+
+.pic > img{
+  width: 100%;
+  height: 100%;
+}
+
+
+.startbox {
+  background-color:deeppink;
+  box-shadow: 0px 0px 15px deeppink;
+  padding-bottom: 25px;
+  color: white;
+  text-align: center;
+}
+
+.startbox > button {
+  width: 100px;
+  height: 50px;
+}
+
+.hidden {
+  display: none;
+}
